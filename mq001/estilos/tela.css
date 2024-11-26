@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-family: arial, helvetica, san-serif;
+	font-size: 1em;
+}
+
+header > h1{
+	text-align: center;
+	background-color: lightgrey;
+}
+
+header > menu{
+	background-color: #c5c6c9;
+	
+}
+
+menu  li {
+	display: inline-block;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	display: block;
+	
+}
+
+a:hover {
+	background-color: lightgrey;
+}
+
+article{
+	width: 700px;
+	margin: auto;
+	display: block;
+	
+}
+
